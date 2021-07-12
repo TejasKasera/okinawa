@@ -1,0 +1,96 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+
+    <link rel="stylesheet" href="style.css">
+    <title>flat belly</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Exo:ital,wght@1,600&display=swap" rel="stylesheet" type = "text/css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head> 
+<body> 
+    <img class="jassi" src="fast.png" width="1000" height="120">
+
+    <img class="tejas" src="walk1.jpg" width="500" height="600">
+
+    <img class="jas" src="fast.png" width="1000" height="120">
+
+<div id="clockdiv"> 
+   
+  <div> 
+    <span class="hours" id="hour"></span> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+  </div> 
+</div> 
+
+<b><p id="demo"></p> </b>
+
+<img class="as" src="faltbelly.jpg" width= displywidth height="120">
+
+<div class="text">
+    <p>Could you really benefit from the same powerful and ancient Japanese tonic that keeps thousands of happy men and women from the island of Okinawa slim, toned, young and full of energy?</p>
+    <p>Now you can, because the secret powerful Japanese formula is finally available in the USA!</p>
+    <p>With this incredible blend of scientifically proven nutrients, you simply drink 1 cup daily to burn away your most stubborn fat, support healthy digestion, increase natural energy levels and feel great again all day long…</p>
+  </div>
+  <br>
+  <br>
+
+  <a href="https://theokinawatonic.com/discover?hop=220976&vendor=fbtonic">
+  <img class="s" src="okinawa4.png" width= displywidth height="520">
+</a>
+
+  <div class="background">
+    <p>The most potent, youth-enhancing blend of unique Japanese nutrients taken daily by the inhabitants of the tiny, remote island of Okinawa to burn off unlimited amounts of troublesome, unwanted fat…increase energy levels and enjoy optimal health. </p>
+    <p>Now for the first time ever, you too can take the very same formula as the inhabitants of the tiny Japanese island of Okinawa to:</p>
+    <ul class="white">
+        <p><i class="fas fa-check-circle"></i>                Enjoy a slim, toned and attractive body for years to come</p>
+        <p><i class="fas fa-check-circle"></i>                Live a long, happy life free of worries about health</p>
+        <p><i class="fas fa-check-circle"></i>                Experience pleasurable waves of new, natural energy</p>
+    </ul>
+  </div>
+  <div class="back">
+  <span>lOO% Satisfaction Guaranteed</span>
+  <p>The Okinawa Flat Belly Tonic is backed by a 100% money back guarantee for 90 days</p>
+  <p>from your original purchase. If you're not totally and completely satisfied with this</p>
+  <p>product, your results or your experience in the first 90 days from your purchase simply</p>
+  <p>let us know contacting us through this website and you will receive a full refund of what</p>
+  <p>you ordered within 48 hours of the product being returned. Simply return the product,</p>
+  <p>even empty bottles, anytime within 90 days of your purchase and you'll receive a full, no</p>
+  <p>questions asked refund (less shipping and handling).</p>
+</div>
+
+<img class="t" src="so.png" width= 300 height="300">
+
+<form action="https://theokinawatonic.com/discover?hop=220976&vendor=fbtonic">
+    <input class="jayesh" type="submit" value="Let's cure our life" required><br><br>
+</form>
+
+<script> 
+  
+var deadline = new Date("july 20, 2021 16:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var hours = Math.floor((t%(1000*60*60*24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t%(1000*60*60)) / (1000 * 60)); 
+var seconds = Math.floor((t%(1000*60)) / 1000); 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</body> 
+</html> 
